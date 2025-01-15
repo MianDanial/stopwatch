@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #413636;
+    font-family: Arial, sans-serif;
+}
+#start{
+    background-color: green;
+}
+#start:hover {
+    background-color: #1de20b;
+}
+#pause{
+    background-color: rgb(171, 171, 0);
+}
+#pause:hover {
+    background-color: #ccec00;
+}
+#reset{
+    background-color: rgb(32, 32, 166);
+}
+#reset:hover {
+    background-color: rgb(7, 7, 220);
+}
+.container {
+    text-align: center;
+    background: #6a2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+button:disabled {
+    background-color: #ccc; /* Gray background */
+    color: #666; /* Dark gray text */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+    opacity: 0.6; /* Reduce opacity */
+  }
+  
